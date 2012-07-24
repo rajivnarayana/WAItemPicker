@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F3BEC415BD975E003BEEA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F3BEC315BD975E003BEEA5 /* UIKit.framework */; };
+		92F3BEC615BD975E003BEEA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F3BEC515BD975E003BEEA5 /* Foundation.framework */; };
+		92F3BEC815BD975E003BEEA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F3BEC715BD975E003BEEA5 /* CoreGraphics.framework */; };
+		92F3BECE15BD975E003BEEA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92F3BECC15BD975E003BEEA5 /* InfoPlist.strings */; };
+		92F3BED015BD975F003BEEA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F3BECF15BD975E003BEEA5 /* main.m */; };
+		92F3BED415BD975F003BEEA5 /* WAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F3BED315BD975F003BEEA5 /* WAAppDelegate.m */; };
+		92F3BEDD15BD9793003BEEA5 /* WACategorySelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F3BEDC15BD9793003BEEA5 /* WACategorySelectionView.m */; };
+		92F3BEDF15BD9AE1003BEEA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F3BEDE15BD9AE1003BEEA5 /* QuartzCore.framework */; };
+		92F3BEE215BDA893003BEEA5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F3BEE115BDA892003BEEA5 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92F3BEBF15BD975E003BEEA5 /* CategorySelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategorySelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F3BEC315BD975E003BEEA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92F3BEC515BD975E003BEEA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92F3BEC715BD975E003BEEA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92F3BECB15BD975E003BEEA5 /* CategorySelection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CategorySelection-Info.plist"; sourceTree = "<group>"; };
+		92F3BECD15BD975E003BEEA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92F3BECF15BD975E003BEEA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92F3BED115BD975F003BEEA5 /* CategorySelection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategorySelection-Prefix.pch"; sourceTree = "<group>"; };
+		92F3BED215BD975F003BEEA5 /* WAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAAppDelegate.h; sourceTree = "<group>"; };
+		92F3BED315BD975F003BEEA5 /* WAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAAppDelegate.m; sourceTree = "<group>"; };
+		92F3BEDB15BD9793003BEEA5 /* WACategorySelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACategorySelectionView.h; sourceTree = "<group>"; };
+		92F3BEDC15BD9793003BEEA5 /* WACategorySelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WACategorySelectionView.m; sourceTree = "<group>"; };
+		92F3BEDE15BD9AE1003BEEA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		92F3BEE015BDA892003BEEA5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		92F3BEE115BDA892003BEEA5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F3BEBC15BD975E003BEEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F3BEDF15BD9AE1003BEEA5 /* QuartzCore.framework in Frameworks */,
+				92F3BEC415BD975E003BEEA5 /* UIKit.framework in Frameworks */,
+				92F3BEC615BD975E003BEEA5 /* Foundation.framework in Frameworks */,
+				92F3BEC815BD975E003BEEA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F3BEB415BD975E003BEEA5 = {
+			isa = PBXGroup;
+			children = (
+				92F3BEC915BD975E003BEEA5 /* CategorySelection */,
+				92F3BEC215BD975E003BEEA5 /* Frameworks */,
+				92F3BEC015BD975E003BEEA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F3BEC015BD975E003BEEA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F3BEBF15BD975E003BEEA5 /* CategorySelection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F3BEC215BD975E003BEEA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F3BEDE15BD9AE1003BEEA5 /* QuartzCore.framework */,
+				92F3BEC315BD975E003BEEA5 /* UIKit.framework */,
+				92F3BEC515BD975E003BEEA5 /* Foundation.framework */,
+				92F3BEC715BD975E003BEEA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F3BEC915BD975E003BEEA5 /* CategorySelection */ = {
+			isa = PBXGroup;
+			children = (
+				92F3BEDA15BD977A003BEEA5 /* CategorySelectionView */,
+				92F3BED215BD975F003BEEA5 /* WAAppDelegate.h */,
+				92F3BED315BD975F003BEEA5 /* WAAppDelegate.m */,
+				92F3BECA15BD975E003BEEA5 /* Supporting Files */,
+				92F3BEE015BDA892003BEEA5 /* RootViewController.h */,
+				92F3BEE115BDA892003BEEA5 /* RootViewController.m */,
+			);
+			path = CategorySelection;
+			sourceTree = "<group>";
+		};
+		92F3BECA15BD975E003BEEA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F3BECB15BD975E003BEEA5 /* CategorySelection-Info.plist */,
+				92F3BECC15BD975E003BEEA5 /* InfoPlist.strings */,
+				92F3BECF15BD975E003BEEA5 /* main.m */,
+				92F3BED115BD975F003BEEA5 /* CategorySelection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92F3BEDA15BD977A003BEEA5 /* CategorySelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				92F3BEDB15BD9793003BEEA5 /* WACategorySelectionView.h */,
+				92F3BEDC15BD9793003BEEA5 /* WACategorySelectionView.m */,
+			);
+			path = CategorySelectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F3BEBE15BD975E003BEEA5 /* CategorySelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F3BED715BD975F003BEEA5 /* Build configuration list for PBXNativeTarget "CategorySelection" */;
+			buildPhases = (
+				92F3BEBB15BD975E003BEEA5 /* Sources */,
+				92F3BEBC15BD975E003BEEA5 /* Frameworks */,
+				92F3BEBD15BD975E003BEEA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CategorySelection;
+			productName = CategorySelection;
+			productReference = 92F3BEBF15BD975E003BEEA5 /* CategorySelection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F3BEB615BD975E003BEEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 92F3BEB915BD975E003BEEA5 /* Build configuration list for PBXProject "CategorySelection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92F3BEB415BD975E003BEEA5;
+			productRefGroup = 92F3BEC015BD975E003BEEA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F3BEBE15BD975E003BEEA5 /* CategorySelection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F3BEBD15BD975E003BEEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F3BECE15BD975E003BEEA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F3BEBB15BD975E003BEEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F3BED015BD975F003BEEA5 /* main.m in Sources */,
+				92F3BED415BD975F003BEEA5 /* WAAppDelegate.m in Sources */,
+				92F3BEDD15BD9793003BEEA5 /* WACategorySelectionView.m in Sources */,
+				92F3BEE215BDA893003BEEA5 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92F3BECC15BD975E003BEEA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F3BECD15BD975E003BEEA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F3BED515BD975F003BEEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92F3BED615BD975F003BEEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F3BED815BD975F003BEEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CategorySelection/CategorySelection-Prefix.pch";
+				INFOPLIST_FILE = "CategorySelection/CategorySelection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92F3BED915BD975F003BEEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CategorySelection/CategorySelection-Prefix.pch";
+				INFOPLIST_FILE = "CategorySelection/CategorySelection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F3BEB915BD975E003BEEA5 /* Build configuration list for PBXProject "CategorySelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F3BED515BD975F003BEEA5 /* Debug */,
+				92F3BED615BD975F003BEEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F3BED715BD975F003BEEA5 /* Build configuration list for PBXNativeTarget "CategorySelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F3BED815BD975F003BEEA5 /* Debug */,
+				92F3BED915BD975F003BEEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92F3BEB615BD975E003BEEA5 /* Project object */;
+}
